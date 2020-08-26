@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+header{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.claro{
+    background-image: url(fundo-branco6.jpg);
+}
+
+.escuro{
+    background-image: url(fundo-preto.jpg);
+}
+
+ 
+
+
+
+
+
+
+.pesquisar{
+    text-align: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+     text-decoration: none;
+     color:rgb(0, 0, 0);
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color:rgb(0, 0, 0);
+    color:rgb(0, 153, 255);
+}
+
+
+#logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#img1{
+         
+         height: 100px; 
+         position: absolute;
+         left: 50%;
+         top: 30%;
+         margin-top: -150px;
+         margin-left: -80px;
+         border-radius: 50%;  
+         cursor: pointer;              
+     }
+
+#img10{
+         
+         height: 40px; 
+         position: absolute;
+         left: 52%;
+         top: 19%;
+         margin-top: -150px;
+         margin-left: -80px;
+         border-radius: 50%;  
+         cursor: pointer;              
+     }     
+
+.title{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title h1{
+    color: rgb(0, 162, 255);
+    font-size: 70px;
+}
+
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color:black;
+    color:rgb(255, 255, 255);    
+}
+
+#pesquisa{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 30px;
+}
+#pesquisa2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 30px;
+}
+
+#h1{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 30px;
+    font-size: 50px;
+    background-color: rgb(248, 245, 245);
+    border-radius: 1%;
+    color: blue;
+    font-style: italic;
+}
+
+.historia{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 500px;
+    font-size: 15px;
+    background-color: rgb(248, 245, 245);
+    border-radius: 1%;
+}
+
+.his2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    height: 500px;
+    font-size: 15px;
+    background-color: rgb(248, 245, 245);
+    border-radius: 1%;
+}
+
+#brasil img{
+    position: absolute;
+    top: 58%;
+    left: 65%;
+    float: left;
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#fontes{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 30px;
+    font-size: 10px;
+    
+}
+#fontes a{
+    text-decoration: none;
+    color: blue;
+}
+
+.teste{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.teste h4{
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+#perfil img{
+    position: absolute;
+    top: 29%;
+    left: 59%;
+    float: left;
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+#tx2{
+    position: absolute;
+    top: 102%;
+    left: 83%;
+}
+
+#DarkMode{
+        position: absolute;
+        top: 102%;
+        left: 93%;
+        cursor: pointer;
+}
+
+#br{
+    text-decoration: none;
+}
+
+#about{
+    text-decoration: none;
+    color: white;
+}

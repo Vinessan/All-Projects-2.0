@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <button name="get_poem" onclick="nomePoema(this.value)">Nome Poemas</button>
+            <div>
+                <h2>Poemas</h2>
+            </div>
+            <ul>
+                <li id="0"></li>
+                <li id="1"></li>
+                <li id="2"></li>
+                <li id="3"></li>
+            </ul>
+
+
+        </div>
+    </header>
+</body>
+
+<!--PARTE DE SCRIPT-->
+<script>
+    function nomePoema() {
+        const req = new XMLHttpRequest();
+        req.open("GET", "https://beginner-api.herokuapp.com/poems");
+        req.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                const obj = JSON.parse(this.responseText)
+                document.getElementById(String('0')).innerText = obj[0].name
+                document.getElementById(String('1')).innerHTML = obj[1].name
+                document.getElementById(String('2')).innerHTML = obj[2].name
+                document.getElementById(String('3')).innerHTML = obj[3].name
+
+            }
+        }
+        req.send();
+    }
+
+
+</script>
+
+</html>

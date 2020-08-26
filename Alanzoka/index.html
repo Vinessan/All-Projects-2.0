@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet">
+    <title>Alanzoka</title>
+       <style>
+           *{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1502847427791-d0194ec4cff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+     text-decoration: none;
+     color:rgb(255, 255, 255);
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color:rgb(0, 0, 0);
+    color:rgb(0, 153, 255);
+}
+
+ul li.active a{
+    background-color:black;
+    color:rgb(72, 0, 155);
+}
+
+#logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    opacity: 0.3;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#img1{
+         
+         height: 100px; 
+         position: absolute;
+         left: 50%;
+         top: 30%;
+         margin-top: -150px;
+         margin-left: -40px;
+         border-radius: 50%;  
+         cursor: pointer;              
+     }
+
+.title{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title h1{
+    color: rgb(0, 162, 255);
+    font-size: 70px;
+}
+
+#texto1{
+    text-align: center;
+    color: white;
+    margin-top: -570px;
+}
+#texto2{
+    color: rgb(0, 153, 255);
+}
+#texto3{
+    color: rgb(66, 0, 128);
+}
+
+.button{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: rgb(66, 0, 128);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color:black;
+    color:rgb(255, 255, 255);    
+}
+
+#img2{
+         
+         height: 250px; 
+         position: absolute;
+         left: 50%;
+         top: 70%;
+         margin-top: -250px;
+         margin-left: -400px;
+         border-radius: 10%;  
+         cursor: pointer;
+                       
+     }    
+
+     #img3{
+         
+         height: 250px; 
+         position: absolute;
+         left: 50%;
+         top: 70%;
+         margin-top: -250px;
+         margin-left: -160px;
+         border-radius: 10%; 
+         cursor: pointer;    
+}
+
+#img4{
+         
+         height: 250px; 
+         position: absolute;
+         left: 50%;
+         top: 70%;
+         margin-top: -250px;
+         margin-left: 180px;
+         border-radius: 10%;
+         cursor: pointer;  
+        }
+
+        #img5{
+         
+         height: 270px; 
+         position: absolute;
+         left: 50%;
+         top: 95%;
+         margin-top: -250px;
+         margin-left: -300px;
+         border-radius: 10%;
+         cursor: pointer;  
+        }
+
+        #img6{
+         
+         height: 270px; 
+         position: absolute;
+         left: 50%;
+         top: 95%;
+         margin-top: -250px;
+         margin-left: -87px;
+         border-radius: 10%;
+         cursor: pointer;  
+        }
+        
+        
+        #img7{
+         
+         height: 270px; 
+         position: absolute;
+         left: 50%;
+         top: 95%;
+         margin-top: -250px;
+         margin-left: 150px;
+         border-radius: 10%;
+         cursor: pointer;  
+        }
+
+
+#hora{
+    margin-top: 555px;
+    text-align: center;
+    
+}
+       </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div id="logo">
+                <img src="https://gof.iv2.com.br/favicon.ico" alt="GrupoIV2">
+            </div>
+              <ul>
+                  <li class="active"><a href="#">Sobre</a></li>
+                  <li><a href="https://www.google.com.br/search?hl=pt-PT&tbm=isch&source=hp&biw=1920&bih=947&ei=KWwsX_ajCIbR5OUPiNG76Ak&q=alanzoka&oq=alanzoka&gs_lcp=CgNpbWcQAzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCABQ2QpYphNgiStoAXAAeACAAWaIAfQFkgEDNi4ymAEAoAEBqgELZ3dzLXdpei1pbWewAQA&sclient=img&ved=0ahUKEwi23JqruYfrAhWGKLkGHYjoDp0Q4dUDCAc&uact=5">Gallery</a></li>
+                  <li><a href="https://criadoresid.com/criador/alan-ferreira/">Time Line</a></li>
+                      
+              </ul>
+        </div>
+
+        <div>
+            <img id="img1" class="small.img" src="https://pbs.twimg.com/profile_images/944712346500587522/duOz-D8s_400x400.jpg">
+        </div>
+
+        <div class="title">
+            <h1 id="texto">Alanzoka</h1>
+        </div>
+        <div class="button">
+            <a href="https://www.twitch.tv/alanzoka" class="btn">Watch Video</a>
+            <a href="https://tazercraft.fandom.com/wiki/Alanzoka" class="btn">Learn more</a>
+        </div>
+    </header>
+
+           
+               <div id="texto1">
+                   <p>Alan Ferreira, nascido em <strong id="texto2">13 de Maio de 1990</strong> em São Paulo, o streamer postou seu primeiro video em <strong id="texto3">2011</strong> no You Tube.</p>
+               </div>
+           
+
+
+
+
+
+    <section>
+        <div>
+            <img id="img2" src="https://pm1.narvii.com/7410/325ea633265bc215342fa2307ffc3be0cef706a7r1-576-622v2_00.jpg" alt="">
+            <img id="img3" src="https://pbs.twimg.com/media/EDy1BPcWwAAW4xQ.jpg" alt="">
+            <img id="img4" src="https://pbs.twimg.com/profile_images/903295023189458946/8kFpO5SA_400x400.jpg" alt="">
+            <img id="img5" src="https://pbs.twimg.com/media/CyxkumIWIAIH9W9.jpg" alt="">
+            <img id="img6" src="https://i.pinimg.com/originals/f1/9a/fd/f19afd6f549d15b975452d4874aff04b.jpg" alt="">
+            <img id="img7" src="https://i.pinimg.com/originals/1d/31/80/1d3180e5ac8dea83275fbf0316943142.jpg" alt="">
+        </div>
+    </section>
+<script>
+    document.getElementById('img1').onclick = function(){
+    if(this.src == "https://pbs.twimg.com/profile_images/944712346500587522/duOz-D8s_400x400.jpg") {
+        this.src="https://yt3.ggpht.com/a/AATXAJyZ3SCM7thuRwsSwrprd6e56F64MEKAfwRQEXUw5w=s900-c-k-c0xffffffff-no-rj-mo"
+    }
+    else
+    {
+        this.src="https://pbs.twimg.com/profile_images/944712346500587522/duOz-D8s_400x400.jpg"
+    }
+}
+
+document.getElementById('texto').onclick = function(){
+    if(this.textContent=="Melhor Streamer Brasileiro!"){
+        this.textContent="Alanzoka"
+    }
+    else
+    {
+        this.textContent="Melhor Streamer Brasileiro!"
+    }
+}
+</script>
+        <footer>
+            
+                <div>
+                    <p id="hora"></p>
+                       <script>
+                           {
+                               var d = new Date();
+                               var n = d.toString();
+                               document.getElementById("hora").innerHTML = n;
+                           }
+                       </script>
+                </div>
+            
+        </footer>  
+    </main>   
+</body>
+</html>
